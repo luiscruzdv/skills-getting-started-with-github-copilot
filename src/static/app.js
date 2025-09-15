@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const spotsLeft = details.max_participants - details.participants.length;
 
-        // Crear lista de participantes
+        // Create participants list
         let participantsSection = "";
         if (details.participants.length > 0) {
           participantsSection = `
